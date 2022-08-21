@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Prueba</title>
+    <title>The Wilderness Repository</title>
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
@@ -10,56 +10,53 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="css/mvp.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="static/css/myCss.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="static/css/customIndex.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Home</a>
-            <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>-->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#categories">Categories</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Petitions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#news">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>-->
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
-                </form>
-            </div>
-        </div>
-    </nav>
+
+    <header>
+
+        <nav class="navbar navbar-default">
+            <img class="logo" src="images/koala svg.svg" alt="logo">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="./LogoutServlet">User</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="./profile.jsp">Home</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="./profile.jsp">Petitions</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="./profile.jsp">About</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <h1 id="titulo">The Wilderness Repository</h1>
+
+    </header>
+
 
 
     <!-- <ul>
@@ -84,7 +81,6 @@
 
 
     </ul>
-
 
     <h1 id="prueba">Esto es una prueba</h1>
 
@@ -122,12 +118,10 @@
 
     <div id="carousel" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -140,13 +134,11 @@
                 <img src="..." class="d-block w-100" alt="...">
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
-            data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel"
-            data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
@@ -156,6 +148,10 @@
     <ul>
         <li>Sign here to protect the jaguar</li>
         <li>Why the White Rhino went Extinct</li>
+        <li>What's the difference between a toad and a frog</li>
+        <li>The science of thew 10 plagues</li>
+        <li>Join a river cleaning team</li>
+        <li>We need to get a grip in forest science</li>
     </ul>
 
     <h3 id="categories">ANIMAL CATEGORIES</h3>
@@ -182,4 +178,156 @@
         <li>Club</li>
         <li>Imperfecti</li>
     </ul>
+
+<container id="newsletter">
+    <div class="col-auto">
+        <p class="pt-2">
+            <strong>Never miss a Petition!</strong>
+        </p>
+    </div>
+    <div class="form-outline form-white mb-4">
+        <input type="email" id="form5Example21" class="form-control"/>
+        <label class="form-label" for="form5Example21">Email address</label>
+    </div>
+    <div class="col-auto">
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-outline-light mb-4">
+            Subscribe to our newsletter </button>
+    </div>
+</container>
+
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </form>
+            </section>
+            <!-- Section: Form -->
+
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">About</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Our story</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Sponsors</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Meet the team</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Account</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Sign in</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Register</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Delete Account</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Legal Stuff</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Terms of Use</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Help</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Troubleshooting</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Donations</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </section>
+                        <!-- Section: Social media -->
+                        <div id="socials">
+                        <section>
+                            <!-- Facebook -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                    class="fab fa-facebook-f"></i></a>
+            
+                            <!-- Twitter -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                    class="fab fa-twitter"></i></a>
+            
+                            <!-- Google -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                    class="fab fa-google"></i></a>
+            
+                            <!-- Instagram -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                    class="fab fa-instagram"></i></a>
+            
+                            <!-- Linkedin -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                    class="fab fa-linkedin-in"></i></a>
+            
+                            <!-- Github -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                    class="fab fa-github"></i></a>
+                        </section>
+                    </div>
+                        <!-- Section: Social media -->
+            <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            ©2022 The Wilderness Repository
+        </div>
+        <!-- Copyright -->
+    </footer>
+
 </body>

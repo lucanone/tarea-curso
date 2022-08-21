@@ -26,31 +26,48 @@
     --width-content: 1080px;
 }
 
-.carousel{
 
 
+#titulo{
+
+    text-align: center;
 }
 
-
-.d-flex{
-
-position: relative;
-
-
+#socials{
+    align-items: right;
 }
+
+#newsletter{
+    text-align:center;
+}
+
+.logo img {
+    height: 300px;
+    width: auto;
+    color: #aaa;
+    stroke: #999;
+    fill: #999;
+}
+
+.logo {
+    padding-top: 15px;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    height: 120px;
+}
+
+.menu-bg .logo {
+    padding-top: 10px;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    color: #aaa;
+    stroke: #999;
+    fill: #999;
+}
+
 .navbar {
-    --navbar-padding-x: #;
-    --navbar-padding-y: #;
-    --navbar-color: #bbbbbb20 ;
-    --navbar-brand-padding-y: #;
-    --navbar-brand-margin-end: #;
-    --navbar-brand-font-size: #;
-    --navbar-brand-color: #;
-    --navbar-nav-link-padding-x: #;
-    --navbar-toggler-padding-y: #;
-    --navbar-toggler-padding-x: #;
-    --navbar-toggler-font-size: #;
-    --navbar-toggler-icon-bg: #escape-svg($navbar-light-toggler-icon-bg);
+    position: absolute;
+    --color: #bbbbbb20 ;
 }
 
 @media (prefers-color-scheme: dark) {
