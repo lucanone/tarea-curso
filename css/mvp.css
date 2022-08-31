@@ -1,5 +1,3 @@
-/* MVP.css v1.9 - https://github.com/andybrewer/mvp */
-
 :root {
     --active-brightness: 0.85;
     --border-radius: 5px;
@@ -24,46 +22,6 @@
     --width-card-medium: 460px;
     --width-card-wide: 800px;
     --width-content: 1080px;
-}
-
-/* From uiverse.io by @alexroumi */
-button {
-    padding: 15px 25px;
-    border: unset;
-    border-radius: 15px;
-    color: #212121;
-    z-index: 1;
-    background: #e8e8e8;
-    position: relative;
-    font-weight: 1000;
-    font-size: 17px;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
-    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
-    transition: all 250ms;
-    overflow: hidden;
-}
-
-button::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    border-radius: 15px;
-    background-color: #212121;
-    z-index: -1;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
-    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
-    transition: all 250ms
-}
-
-button:hover {
-    color: #e8e8e8;
-}
-
-button:hover::before {
-    width: 100%;
 }
 
 #nav{
@@ -239,7 +197,7 @@ section header {
     width: 100%;
 }
 
-/* Nav */
+/* Nav 
 nav {
     align-items: center;
     display: flex;
@@ -251,16 +209,17 @@ nav {
 nav ul {
     list-style: none;
     padding: 0;
-}
+}*/
 
 nav ul li {
     display: inline-block;
     margin: 0 0.5rem;
-    position: relative;
-    text-align: left;
+    position:relative;
+    text-align: right;
+    margin-right: 20px;
 }
 
-/* Nav Dropdown */
+Nav Dropdown 
 nav ul li:hover ul {
     display: block;
 }
@@ -282,8 +241,8 @@ nav ul li ul {
 }
 
 nav ul li ul::before {
-    /* fill gap above to make mousing over them easier */
-    content: "";
+/* fill gap above to make mousing over them easier */
+     content: "";
     position: absolute;
     left: 0;
     right: 0;
@@ -294,7 +253,7 @@ nav ul li ul::before {
 nav ul li ul li,
 nav ul li ul li a {
     display: block;
-}
+} 
 
 /* Typography */
 code,
@@ -402,10 +361,6 @@ a strong,
     padding: 1rem 2rem;
 }
 
-button {
-    font-family: var(--font-family);
-}
-
 button:active {
     filter: brightness(var(--active-brightness));
 }
@@ -450,19 +405,30 @@ figure figcaption {
     color: var(--color-text-secondary);
 }
 
-/* Forms */
-
-button:disabled,
-input:disabled {
+#donate:disabled,
+input:disabled{
     background: var(--color-bg-secondary);
     border-color: var(--color-bg-secondary);
     color: var(--color-text-secondary);
     cursor: not-allowed;
 }
 
-button[disabled]:hover {
+#donate[disabled]:hover{
     filter: none;
 }
+
+/* button:disabled,
+input:disabled {
+    background: var(--color-bg-secondary);
+    border-color: var(--color-bg-secondary);
+    color: var(--color-text-secondary);
+    cursor: not-allowed;
+}
+*/
+
+/* button[disabled]:hover {
+    filter: none;
+} */
 
 form {
     border: 1px solid var(--color-bg-secondary);
