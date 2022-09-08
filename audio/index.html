@@ -47,26 +47,7 @@
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-
-                            <!-- Logre que se vea el svg de user pero me empuja las opciones
-                            del navbar (home, about,etc) -->
-                            <a href="#">
-                                <svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="40 0 15000 700">
-                                    <defs>
-                                        <style>
-                                            .cls-1 {
-                                                fill: #fff;
-                                            }
-                                        </style>
-                                    </defs>
-                                    <path class="cls-1"
-                                        d="M106,409.29c.97-7.14,1.78-14.31,2.94-21.43,11.79-71.99,68.14-133.74,138.92-151.61,60.37-15.24,115.85-4.42,166.03,32.68,4.56,3.37,5.42,7.89,2.38,11.56-2.68,3.25-6.85,3.29-11.08,.67-10.98-6.83-21.61-14.48-33.23-19.99-36.77-17.43-75.58-21.97-114.84-11.59-73.61,19.47-119.53,67.25-133.23,142.11-11.34,61.99,8.24,115.66,53.94,159.43,.69,.66,1.49,1.21,2.57,2.09,7.69-32.29,24.95-57.63,52.57-75.52,21.23-13.76,44.71-19.98,69.97-18.88,53.83,2.34,100.01,40.58,111.97,94.29,.96-.76,1.84-1.36,2.61-2.09,33.52-31.49,52.46-70.08,56.11-115.97,2.94-36.87-5.17-71.3-23.68-103.29-.37-.65-.77-1.28-1.11-1.95-2.12-4.14-1.11-8.3,2.51-10.43,3.65-2.14,7.98-1.13,10.29,2.87,3.37,5.82,6.7,11.69,9.53,17.78,49.39,106.5-6.41,230.97-118.72,264.91-12.92,3.91-26.13,6.37-39.61,7.32-1.09,.08-2.17,.42-3.25,.64h-23.95c-.96-.21-1.91-.54-2.88-.62-32.58-2.53-62.72-12.46-89.89-30.62-45.8-30.62-73.96-73.08-83.96-127.37-1.28-6.96-1.96-14.03-2.92-21.05,0-7.98,0-15.97,0-23.95Zm190.97,188.67c35.6-.27,67.82-9.56,97.13-28.66q7.85-5.12,5.63-14.5c-14.77-62.29-79.41-97.09-139.37-74.22-36.48,13.92-58.08,41.16-65.98,79.36-.64,3.11,.13,4.89,2.79,6.72,30.3,20.78,63.84,31,99.81,31.3Z" />
-                                    <path class="cls-1"
-                                        d="M297.48,443.72c-37.09-.06-67.27-30.38-67.22-67.52,.06-37.09,30.37-67.27,67.51-67.21,37.1,.06,67.28,30.36,67.22,67.51-.06,37.09-30.38,67.28-67.51,67.22Zm52.54-67.4c-.01-28.82-23.52-52.34-52.34-52.36-28.84-.02-52.4,23.44-52.45,52.24-.05,29,23.53,52.6,52.52,52.55,28.79-.05,52.28-23.61,52.27-52.43Z" />
-                                    <path class="cls-1"
-                                        d="M435.34,291.05c3.98,0,7.36,3.27,7.47,7.26,.11,4.12-3.32,7.65-7.44,7.66-4.13,0-7.56-3.51-7.47-7.63,.09-3.99,3.45-7.27,7.44-7.28Z" />
-                                </svg></a>
-                            <ul class="nav navbar-nav navbar-right">
+                            <ul id="navoptions" class="nav navbar-nav">
                                 <li><a href="#home">Home</a></li>
                                 <li><a href="#categories">Categories</a></li>
                                 <li><a href="./profile.jsp">Petitions</a></li>
@@ -74,7 +55,7 @@
                                 <li><a href="./profile.jsp">About</a></li>
                             </ul>
                     </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
+                </div>
             </nav>
         </section>
         <section>
@@ -82,6 +63,7 @@
             <button class="btn-outline-light" id="donate"> Donate here </button>
         </section>
     </header>
+    <br>
 
     <section>
     <center>
@@ -89,41 +71,8 @@
     </center>
     </section>
 
-    <section>
-        <h1 id="prueba">Esto es una prueba</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.<br> <strong>Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</strong><br>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-            deserunt mollit anim id est laborum.</p>
-        <hr>
-        <img src="images/koala.jpg" alt="koala" width="450">
-        <span>Esto es un koala</span>
-    
-        <h2>¿Queres ver mas?</h2>
-        <p><img src="images/2koalas.webp" alt="2 koalas" width="300" height="200">
-            <span>aca hay 2</span>
-            <img src="images/3koalas.jpg" alt="3 koalas" width="200" height="200">
-            <span>aca hay 3</span>
-            <img src="images/4koalas.jpg" alt="4 koalas" width="300" height="200">
-            <span>y aca hay 4</span>
-        </p>
-        <p>Es el único representante existente de la familia <strong>Phascolarctidae</strong>
-            y sus parientes vivos más cercanos son los wombats.<br>
-            Vive en las zonas costeras de las regiones este y sur australianas,
-            en los estados de <strong>Queensland, Nueva Gales del Sur, Victoria y Australia Meridional.</strong><br>
-            Es fácilmente reconocible por su cuerpo robusto sin cola, cabeza grande con orejas redondas
-            y peludas y nariz grande en forma de cuchara.<br>Mide entre 60 y 85 cm y pesan de 4 a 15 kg.
-            El color de su pelaje va del gris plata al marrón chocolate.<br> Las poblaciones septentrionales
-            suelen ser de menor tamaño y de un color más claro que las del sur,<br> por lo que se cree que puedan
-            ser una subespecie separada, aunque esta posibilidad está en discusión.</p>
-    </section>
-
 
     <section>
-        <h2 id="empieza">Aca empieza la página que boceteé</h2>
 
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
             <div class="carousel-indicators">

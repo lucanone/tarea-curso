@@ -3,6 +3,8 @@ font-family: "Helvetica Neue", sans-serif,"Montserrat" ;
 }
 
 button {
+    margin: auto;
+    display: block;
     padding: 15px 25px;
     border: unset;
     border-radius: 15px;
@@ -70,6 +72,10 @@ a i {
     background-color: #000;
 
 }
+.nav {
+    text-align: right;
+    text-decoration-color: #aaa;
+}
 
 #titulo {
 
@@ -85,6 +91,7 @@ a i {
 }
 
 .logo img {
+    position: absolute;
     height: 300px;
     width: auto;
     color: #aaa;
@@ -93,10 +100,23 @@ a i {
 }
 
 .logo {
+    margin: auto;
+    display: block;
+    margin-bottom: -60px;
     padding-top: 15px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     height: 120px;
+}
+#navoptions{
+    color: #aaa;
+    text-decoration-color: #aaa;
+    text-align: right;
+    margin-right: 10px;
+    margin-left: 800px;
+}
+#Capa_1{
+    position: relative;
 }
 
 header nav img {
@@ -189,4 +209,9 @@ input:disabled{
 
 #donate[disabled]:hover{
     filter: none;
+}
+
+ul a{
+color: #aaa;
+
 }
