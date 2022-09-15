@@ -213,5 +213,24 @@ input:disabled{
 
 ul a{
 color: #aaa;
+}
 
+.box {
+    display: inline-block;
+    background-color: rgb(158, 157, 157);
+    border-radius: 20px;
+    width: 120px;
+    height: 120px;
+    padding: 16px;
+    margin: 4px;
+    align-content: center;
+    border-radius: 20px;
+}
+
+.box-grid {
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
 }
