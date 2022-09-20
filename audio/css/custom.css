@@ -86,6 +86,11 @@ a i {
     align-items: right;
 }
 
+
+#month {
+        text-align: center;
+    }
+
 #newsletter {
     text-align: center;
 }
@@ -115,15 +120,11 @@ a i {
     margin-right: 10px;
     margin-left: 800px;
 }
-#Capa_1{
-    position: relative;
-}
 
 header nav img {
     margin: 1rem 0;}
 
-img {
-        vertical-align: middle;}
+
 
 .menu-bg .logo {
     padding-top: 10px;
@@ -219,8 +220,8 @@ color: #aaa;
     display: inline-block;
     background-color: rgb(158, 157, 157);
     border-radius: 20px;
-    width: 120px;
-    height: 120px;
+    width: 250px;
+    height: 250px;
     padding: 16px;
     margin: 4px;
     align-content: center;
@@ -228,9 +229,20 @@ color: #aaa;
 }
 
 .box-grid {
-    display: flex;
+    display:flex;
+    flex-wrap: no-wrap;
     align-items: flex-start;
     align-items: center;
     padding: 20px;
+    text-align: center;
+    overflow-y: scroll;
+
+}
+
+#titulo{
+    display: flex;
+}
+
+h1{
     text-align: center;
 }
