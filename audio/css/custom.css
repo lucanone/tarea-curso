@@ -45,6 +45,7 @@ button {
 
 button {
     font-family: var(--font-family);
+    align-items: right;
 }
 
 button:active {
@@ -77,9 +78,12 @@ a i {
     text-decoration-color: #aaa;
 }
 
-#titulo {
-
+.titulo {
     text-align: center;
+}
+
+.btn-outline-light{
+
 }
 
 #socials {
@@ -218,7 +222,7 @@ color: #aaa;
 
 .box {
     display: inline-block;
-    background-color: rgb(158, 157, 157);
+    background-color: rgb(201, 199, 199);
     border-radius: 20px;
     width: 250px;
     height: 250px;
@@ -235,14 +239,46 @@ color: #aaa;
     align-items: center;
     padding: 20px;
     text-align: center;
-    overflow-y: scroll;
+
 
 }
 
-#titulo{
+/* NO PUEDO HACER QUE ESTA SECCIÓN QUEDE CENTRADA. QUIERO QUE EL TITULO QUEDE EN EL MEDIO Y EL BOTÓN
+A LA DERECHA*/
+.titulo{
     display: flex;
+    justify-content: center;
 }
 
-h1{
-    text-align: center;
+.news{
+    display: grid;
+    overflow-x: scroll;
+    padding: 20px;
+    scrollbar-color: black rgb(217, 214, 214);
+
+}
+
+.mammals{
+    display: grid;
+    overflow-x: scroll;
+    padding: 20px;
+    scrollbar-color: black rgb(217, 214, 214);
+}
+
+.plants {
+    display: grid;
+    overflow-x: scroll;
+    padding: 20px;
+    scrollbar-color: black rgb(217, 214, 214);
+}
+
+.fungi{
+    display: grid;
+    overflow-x: scroll;
+    padding: 20px;
+    scrollbar-color: black rgb(217, 214, 214);
+}
+
+.section::-webkit-scrollbar {
+    width: 10px;
 }

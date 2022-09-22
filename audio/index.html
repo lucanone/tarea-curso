@@ -10,7 +10,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="css/mvp.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta charset="UTF-8">
     <link href="static/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="static/css/customIndex.css" rel="stylesheet">
@@ -24,8 +24,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/custom.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -59,8 +59,8 @@
                 </div>
             </nav>
         </section>
-        <section id="titulo" class="titulo">
-            <h1 id="titulo">The Wilderness Repository</h1>
+        <section class="titulo">
+            <h1>The Wilderness Repository</h1>
             <button class="btn-outline-light" id="donate"> Donate here </button>
         </section>
     </header>
@@ -71,114 +71,124 @@
         <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/YL1i_iije2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </center>
     </section> -->
-<section id="boxes">
-    <section>
-        <h3 id="news">NEWS</h3>
-        <div class="box-grid">
-            <div class="box">
-                <img src="images/jaguar svg.svg" alt="jaguar">
-                <p>Sign here to protect the jaguar</p>
-            </div>
-            <div class="box">
-                <img src="images/rhino svg.svg" alt="rhino">
-                <p>Why the White Rhino went Extinct</p>
-            </div>
-            <div class="box">
-                <img src="images/toad svg.svg" alt="toad">
-                <p>What's the difference between a toad and a frog</p>
-            </div>
-            <div class="box">
-                <img src="images/plague svg.svg" alt="plage">
-                <p>The science of thew 10 plagues</p>
-            </div>
-            <div class="box">
-                <img src="images/water svg.svg" alt="water">
-                <p>Join a river cleaning team</p>
-            </div>
-            <div class="box">
-                <img src="images/trees svg.svg" alt="trees">
-                <p>We need to get a grip in forest science</p>
+
+    <!--quiero hacer que todos los svgs de las cajas mantengan el mismo tamaño y que los textos
+    aparezcan debajo de la caja-->
+    <section class="boxes-scroll">
+        <div class="news">
+            <h3 id="news">NEWS</h3>
+            <div class="box-grid">
+                <div class="box">
+                    <img class="boxsvg" src="images/jaguar svg.svg" alt="jaguar">
+                    <p>Sign here to protect the jaguar</p>
+                </div>
+                <div class="box">
+                    <img class="boxsvg" src="images/rhino svg.svg" alt="rhino">
+                    <p>Why the White Rhino went Extinct</p>
+                </div>
+                <div class="box">
+                    <img class="boxsvg" src="images/toad svg.svg" alt="toad">
+                    <p>What's the difference between a toad and a frog</p>
+                </div>
+                <div class="box">
+                    <img class="boxsvg" src="images/plague svg.svg" alt="plage">
+                    <p>The science of thew 10 plagues</p>
+                </div>
+                <div class="box">
+                    <img class="boxsvg" src="images/water svg.svg" alt="water">
+                    <p>Join a river cleaning team</p>
+                </div>
+                <div class="box">
+                    <img class="boxsvg" src="images/trees svg.svg" alt="trees">
+                    <p>We need to get a grip in forest science</p>
+                </div>
             </div>
         </div>
+
+
+        <div class="mammals">
+            <h3 id="categories">ANIMAL CATEGORIES</h3>
+            <div class="box-grid">
+                <div class="box">
+                    <img class="boxsvg" src="images/bunny svg.svg" alt="bunny">
+                    <p>Mammals</p>
+                </div>
+                <div class="box">
+                    <img class="boxsvg" src="images/anaconda svg.svg" alt="snake">
+                    <p>Reptiles</p>
+                </div>
+                <div class="box">
+                    <img class="boxsvg" src="images/bird svg.svg" alt="bird">
+                    <p>Birds</p>
+                </div>
+                <div class="box">
+                    <img class="boxsvg" src="images/frog svg.svg" alt="frog">
+                    <p>Amphibians</p>
+                </div>
+                <div class="box">
+                    <img class="boxsvg" src="images/fish svg.svg" alt="fish">
+                    <p>Fish</p>
+                </div>
+                <div class="box">
+                    <img class="boxsvg" src="images/squid svg.svg" alt="squid">
+                    <p>Invertebrates</p>
+                </div>
+            </div>
         </div>
+
+        <div class="plants">
+            <h3 id="plant">PLANT CATEGORIES</h3>
+            <div class="box-grid">
+                <div class="box">
+                    <img class="boxsvg" src="images/herb svg.svg" alt="herb">
+                    <p>Herbs</p>
+                </div>
+                <div class="box">
+                    <img class="boxsvg" src="images/shrub svg.svg" alt="shrub">
+                    <p>Shrubs</p>
+                </div>
+                <div class="box">
+                    <img class="boxsvg" src="images/climber svg.svg" alt="climber">
+                    <p>Climbers</p>
+                </div>
+                <div class="box">
+                    <img class="boxsvg" src="images/trees svg.svg" alt="trees">
+                    <p>Trees</p>
+                </div>
+                <div class="box">
+                    <img class="boxsvg" src="images/creeper svg.svg" alt="creeper">
+                    <p>Creepers</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="fungi">
+            <h3 id="fungi">FUNGI CATEGORIES</h3>
+            <div class="box-grid">
+                <div class="box">
+                    <img class="boxsvg" src="images/lower.svg" alt="lower">
+                    <p>Lower</p>
+                </div>
+                <div class="box">
+                    <img class="boxsvg" src="images/sac svg.svg" alt="sac">
+                    <p>Sac</p>
+                </div>
+                <div class="box">
+                    <img class="boxsvg" src="images/club svg.svg" alt="club">
+                    <p>Club</p>
+                </div>
+                <div class="box">
+                    <img class="boxsvg" src="images/imperfecti svg.svg" alt="imperfecti">
+                    <p>Imperfecti</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section>
-        <h3 id="categories">ANIMAL CATEGORIES</h3>
-        <div class="box-grid">
-            <div class="box">
-                <img src="images/bunny svg.svg" alt="bunny">
-                <p>Mammals</p>
-            </div>
-            <div class="box">
-                <img src="images/anaconda svg.svg" alt="snake">
-                <p>Reptiles</p>
-            </div>
-            <div class="box">
-                <img src="images/bird svg.svg" alt="bird">
-                <p>Birds</p>
-            </div>
-            <div class="box">
-                <img src="images/frog svg.svg" alt="frog">
-                <p>Amphibians</p>
-            </div>
-        </div>
+    <section id="month">
+        <h2>Hear the animal of the month!</h2>
+        <audio controls src="audio/thumpingchest.wav"></audio>
     </section>
-
-    <section>
-        <h3 id="plant">PLANT CATEGORIES</h3>
-        <div class="box-grid">
-            <div class="box">
-                <img src="images/herb svg.svg" alt="herb">
-                <p>Herbs</p>
-            </div>
-            <div class="box">
-                <img src="images/shrub svg.svg" alt="shrub">
-                <p>Shrubs</p>
-            </div>
-            <div class="box">
-                <img src="images/climber svg.svg" alt="climber">
-                <p>Climbers</p>
-            </div>
-            <div class="box">
-                <img src="images/trees svg.svg" alt="trees">
-                <p>Trees</p>
-            </div>
-            <div class="box">
-                <img src="images/creeper svg.svg" alt="creeper">
-                <p>Creepers</p>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <h3 id="fungi">FUNGI CATEGORIES</h3>
-        <div class="box-grid">
-            <div class="box">
-                <img src="images/lower.svg" alt="lower">
-                <p>Lower</p>
-            </div>
-            <div class="box">
-                <img src="images/sac svg.svg" alt="sac">
-                <p>Sac</p>
-            </div>
-            <div class="box">
-                <img src="images/club svg.svg" alt="club">
-                <p>Club</p>
-            </div>
-            <div class="box">
-                <img src="images/imperfecti svg.svg" alt="imperfecti">
-                <p>Imperfecti</p>
-            </div>
-        </div>
-    </section>
-</section>
-
-<section id="month">
-    <h2>Hear the animal of the month!</h2>
-    <audio controls src="audio/thumpingchest.wav"></audio>
-</section>
 
     <section id="newsletter">
         <div class="col-auto">
@@ -196,7 +206,7 @@
                 Subscribe to our newsletter </button>
         </div>
     </section>
-<br>
+    <br>
     <footer class="bg-dark text-center text-white" id="footer">
         <!-- Grid container -->
         <div class="container p-4">
@@ -224,34 +234,34 @@
                             <li>
                                 <a href="contacto.html" class="text-white">Contact Us</a>
                             </li>
-                        <h5 class="text-uppercase">Account</h5>
-                        <ul class="list-unstyled mb-0" style="list-style-type: none; display: inline-block;">
-                            <li>
-                                <a href="#!" class="text-white">Sign in</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-white">Register</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-white">Delete Account</a>
-                            </li>
-                        <h5 class="text-uppercase">Legal Stuff</h5>
-                            <li>
-                                <a href="#!" class="text-white">Terms of Use</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-white">Privacy Policy</a>
-                            </li>
-                        <h5 class="text-uppercase">Help</h5>
-                            <li>
-                                <a href="#!" class="text-white">Troubleshooting</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-white">Donations</a>
-                            </li>
-                    <!--Grid column-->
-                </div>
-                <!--Grid row-->
+                            <h5 class="text-uppercase">Account</h5>
+                            <ul class="list-unstyled mb-0" style="list-style-type: none; display: inline-block;">
+                                <li>
+                                    <a href="#!" class="text-white">Sign in</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Register</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Delete Account</a>
+                                </li>
+                                <h5 class="text-uppercase">Legal Stuff</h5>
+                                <li>
+                                    <a href="#!" class="text-white">Terms of Use</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Privacy Policy</a>
+                                </li>
+                                <h5 class="text-uppercase">Help</h5>
+                                <li>
+                                    <a href="#!" class="text-white">Troubleshooting</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Donations</a>
+                                </li>
+                                <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
             </section>
             <!-- Section: Social media -->
             <div id="socials">
@@ -294,4 +304,3 @@
     </footer>
 
 </body>
-
