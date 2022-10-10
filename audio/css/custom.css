@@ -250,6 +250,10 @@ A LA DERECHA*/
     justify-content: center;
 }
 
+.btn-outline-light{
+    justify-content: right;
+}
+
 .news{
     display: grid;
     overflow-x: scroll;
@@ -277,8 +281,4 @@ A LA DERECHA*/
     overflow-x: scroll;
     padding: 20px;
     scrollbar-color: black rgb(217, 214, 214);
-}
-
-.section::-webkit-scrollbar {
-    width: 10px;
 }
